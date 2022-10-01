@@ -1,0 +1,23 @@
+{
+  "name": "javascriptmodernoguiadefinitivaconstruye15proyectos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caled4/javaScriptUdemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caled4/javaScriptUdemy/issues"
+  },
+  "homepage": "https://github.com/Caled4/javaScriptUdemy#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
