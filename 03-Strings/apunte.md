@@ -15,7 +15,7 @@ Las formas de  concatenar son de tres maneras:
 
 * Adicion y coma ---> Se agrega un + o , antes del valor que se desea concatenar **console.log(producto+"con un precio de ",precio)**
 
-* Acento grave ---> La salida debe ser definida por una comilla de acento grave y los valores que se  se deseen agregar deben estar envueltos de unas llaveas acompanhadas de un dolar al inicio **console.log(\`el producto ${producto} tiene un precio de ${precio}\`)**
+* Acento grave ---> La salida debe ser definida por una comilla de acento grave y los valores que se  se deseen agregar deben estar envueltos de unas llaveas acompanhadas de un dolar al inicio **console.log(\`el producto /${producto} tiene un precio de /${precio}\`)**
 
 ## Metodos
 
