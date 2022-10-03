@@ -4,8 +4,8 @@
 
     Indirecta | Directa | Como Objeto
     -----------|------------|----------
-    Se asigna un valor string | Se declara que el valor que tendra es un string| Que declara que el valor sera  un bojeto de valor string string
-    const producto="monitor 20 \"" | const producto2=String('monitor de 68"') |const producto3=new String('monitor de 51 pulgadas')
+    Se asigna un valor string | Se declara que el valor que tendra es un string | Que declara que el valor sera  un bojeto de valor string string
+    const producto="monitor 20 \"" | const producto2=String('monitor de 68"') | const producto3=new String('monitor de 51 pulgadas')
 
 ## Concatenaciom
 
@@ -22,7 +22,7 @@ console.log(`el producto ${producto} tiene un precio de ${precio}`)
 
 ## Metodos
 
- Metodo | concepto | ejemplo 
+ Metodo | Concepto | Ejemplo 
  -----------|----------|-----------
  .lengh() | Contar los caracteres de un string | console.log(item.length)
  .indexOf() | Buscar dentro del sting, si existe retorna el inidice  sino -1 | console.log(item.indexOf('20'))
