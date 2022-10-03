@@ -6,5 +6,5 @@ Todas ellas se elevan a la parte superior de su ámbito. Pero mientras que las v
 Mientras que var y let pueden ser declaradas sin ser inicializadas, const debe ser inicializada durante la declaración.
 
 concepto  | var | lef |const
-------------- | -------------
+------------------------ | -------------|-------------|-------------
 scope global/local  | yes | not | not
