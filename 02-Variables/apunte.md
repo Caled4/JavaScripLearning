@@ -5,7 +5,6 @@ Las variables var pueden ser modificadas y re-declaradas dentro de su ámbito; l
 Todas ellas se elevan a la parte superior de su ámbito. Pero mientras que las variables var se inicializan con undefined, let y const no se inicializan.
 Mientras que var y let pueden ser declaradas sin ser inicializadas, const debe ser inicializada durante la declaración.
 
-First Header  | Second Header
+concepto  | var | lef |const
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+scope global/local  | yes | not | not
