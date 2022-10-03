@@ -1,5 +1,5 @@
 # apuntes sobre variables
-### estos apuntos son de lecturas particulares de freecodecamp.org
+### Estos apuntos son de lecturas particulares de freecodecamp.org
 
 Las **declaraciones** var tienen un ámbito global o un ámbito función/local, mientras que let y const tienen un ámbito de bloque.
 
@@ -8,11 +8,11 @@ Las variables var pueden ser **modificadas y re-declaradas** dentro de su ámbit
 Todas ellas se elevan a la parte superior de su ámbito. Pero mientras que las variables var se inicializan con undefined, let y const no se inicializan.
 Mientras que var y let pueden ser declaradas sin ser inicializadas, const debe ser inicializada durante la declaración.
 
-concepto  | var | lef |const
+Concepto  | var | let |const
 ------------------------ | -------------|-------------|-------------
-scope global/local  | yes | not | not
-scope a nivel de bloque | not | yes | yes
-modificadas| yes | yes | not
-re-declaradas| yes | not | not
-cuando no se define el valor| -1 | undefined | initialization error
+Scope global/local  | yes | not | not
+Scope a nivel de bloque | not | yes | yes
+Modificacion| yes | yes | not
+Re-declaracion| yes | not | not
+Cuando no se define el valor| -undefined | undefined | initialization error
 
