@@ -3,7 +3,7 @@
 ## Definicion
 
     Indirecta | Directa | Como Objeto
-    -----------|------------|----------
+    -----------|---------------------------|-------------------------
     Se asigna un valor string | Se declara que el valor que tendra es un string | Que declara que el valor sera  un bojeto de valor string string
     const producto="monitor 20 \"" | const producto2=String('monitor de 68"') | const producto3=new String('monitor de 51 pulgadas')
 
@@ -11,14 +11,11 @@
 
 Las formas de  concatenar son de tres maneras:
 
-* Por Medodo ---> Se envia un string como parametro al metodo que concatenara con otro string
-Console.log(producto.concat(precio))
+* Por Medodo ---> Se envia un string como parametro al metodo que concatenara con otro string **Console.log(producto.concat(precio))**
 
-* Adicion y coma ---> Se agrega un + o , antes del valor que se desea concatenar
-console.log(producto+"con un precio de ",precio)
+* Adicion y coma ---> Se agrega un + o , antes del valor que se desea concatenar **console.log(producto+"con un precio de ",precio)**
 
-* Acento grave ---> La salida debe ser definida por una comilla de acento grave y los valores que se  se deseen agregar deben estar envueltos de unas llaveas acompanhadas de un dolar al inicio
-console.log(`el producto ${producto} tiene un precio de ${precio}`)
+* Acento grave ---> La salida debe ser definida por una comilla de acento grave y los valores que se  se deseen agregar deben estar envueltos de unas llaveas acompanhadas de un dolar al inicio **console.log(`el producto ${producto} tiene un precio de ${precio}`)**
 
 ## Metodos
 
