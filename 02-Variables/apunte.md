@@ -5,6 +5,6 @@ Las variables var pueden ser modificadas y re-declaradas dentro de su ámbito; l
 Todas ellas se elevan a la parte superior de su ámbito. Pero mientras que las variables var se inicializan con undefined, let y const no se inicializan.
 Mientras que var y let pueden ser declaradas sin ser inicializadas, const debe ser inicializada durante la declaración.
 * fila 1
-* fila 2
+* 
     * columna 1
     * columna 2
