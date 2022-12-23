@@ -1,0 +1,10 @@
+const carrito=[
+    {nombre:'Monitor 27 Pulgadas',precio:500},
+    {nombre:'Television',precio:100},
+    {nombre:'Tablet',precio:100},
+    {nombre:'Audifonos',precio:300},
+    {nombre:'Teclado',precio:400},
+    {nombre:'celular',precio:700}
+]
+const resultado=carrito.every(producto=>producto.precio<1000)
+console.log(resultado)
